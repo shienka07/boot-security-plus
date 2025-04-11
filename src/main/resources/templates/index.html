@@ -8,14 +8,15 @@
     <title>시큐리티 실습</title>
 </head>
 <body>
-    <p th:text="${msg}"></p>
-    <nav>
-        <a th:href="@{/login}">로그인</a>
-        <a th:href="@{/join}">회원가입</a>
-    </nav>
-    <section>
-        <a th:href="@{/user}">유저</a>
-        <a th:href="@{/admin}">관리자</a>
-    </section>
+<p th:text="${msg}"></p>
+<nav>
+    <a th:href="@{/login}">로그인</a>
+    <a th:href="@{/logout}">로그아웃</a>
+    <a th:href="@{/join}">회원가입</a>
+</nav>
+<section>
+    <a th:href="@{/user}">유저</a>
+    <a th:href="@{/admin}">관리자</a>
+</section>
 </body>
 </html>
