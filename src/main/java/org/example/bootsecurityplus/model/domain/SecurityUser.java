@@ -7,7 +7,7 @@ public record SecurityUser(
         String username,
         String password,
         String role,
-        LocalDateTime createdAt
+        String createdAt
 ) {
     public static SecurityUser toDB(String username, String password, String role) {
         return new SecurityUser(null, username, password, role, null);
