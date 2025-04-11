@@ -17,3 +17,8 @@ spring:
     type-aliases-package: org.example.bootsecurityplus.model.domain # 도메인 객체 패키지 경로
     configuration:
       map-underscore-to-camel-case: true # 언더스코어 표기법을 카멜 케이스 표기법으로 자동 변환
+  # 시큐리티
+  security:
+    user:
+      name: disabled
+      password: disabled

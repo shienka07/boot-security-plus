@@ -6,10 +6,10 @@ spring:
     password: ${MYSQL_PASSWORD} # 데이터베이스 비밀번호
     driver-class-name: org.postgresql.Driver # PostgreSQL 드라이버 클래스 이름
   # 시큐리티
-  security:
-    user:
-      name: ${SECURITY_NAME}
-      password: ${SECURITY_PASSWORD}
+#  security:
+#    user:
+#      name: ${SECURITY_NAME}
+#      password: ${SECURITY_PASSWORD}
 # 로깅 설정
 logging:
   level:
